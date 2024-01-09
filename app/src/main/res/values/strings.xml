@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Trending movies</string>
+    <string name="home_page_txt">Are you ready for movie night ???</string>
+    <string name="home_page_txt2">Go to check some trending movies …</string>
+</resources>
