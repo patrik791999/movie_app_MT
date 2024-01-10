@@ -3,6 +3,7 @@ package com.example.movie_skuska1.viewModel
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 
+    //Data for About page
 class AboutViewModel : ViewModel() {
 
     private val _aboutInfo = MutableLiveData<String>().apply {

@@ -1,5 +1,6 @@
 package com.example.movie_skuska1.data
 
+//data class movies
 data class Movies(
     val page: Int,
     val results: List<Result>,

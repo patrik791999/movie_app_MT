@@ -11,12 +11,12 @@ import retrofit2.Call
 import retrofit2.Response
 import retrofit2.Callback
 
-
-
+    //Data for Movie page
 class MovieViewModel : ViewModel() {
     private var movieLiveData = MutableLiveData<List<Result>>()
 
-
+    //Function for getting popular movies from api endpoint using asynchronous request with Callback object
+    //this object has successful and failure states
     fun getPopularMovies() {
         RetrofitInstance.api.getPopularMovies("d7bbaa8f2960958c6e0c067bd7a52b31").enqueue(object :
             Callback<Movies> {
@@ -33,6 +33,8 @@ class MovieViewModel : ViewModel() {
             }
         })
     }
+
+    //Observing live data in Results from api respond
     fun observeMovieLiveData() : LiveData<List<Result>> {
         return movieLiveData
     }

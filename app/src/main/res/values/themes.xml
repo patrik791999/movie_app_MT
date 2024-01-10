@@ -8,7 +8,7 @@
 
     <style name="Theme.Movie_skuska1" parent="Base.Theme.Movie_skuska1" />
 
-<!-- Splash screen-->
+<!-- Splash screen code-->
     <style name="Theme.App.Starting" parent="Theme.SplashScreen">
         <item name="windowSplashScreenBackground">@color/white</item>
         <item name="windowSplashScreenAnimatedIcon">@drawable/splash_screen_icon</item>

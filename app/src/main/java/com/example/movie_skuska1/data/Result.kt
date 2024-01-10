@@ -1,5 +1,6 @@
 package com.example.movie_skuska1.data
 
+//data class results
 data class Result(
     val adult: Boolean,
     val backdrop_path: String,
